@@ -3,7 +3,7 @@ variable "vpc_cidr" {
 }
 variable "common_tags" {
   default = {
-    Project = "roboshop"
+    Project = "clarion"
     Environment = "dev"
     Terraform = "true"
   }
@@ -14,7 +14,7 @@ variable "vpc_tags" {
 }
 
 variable "project_name" {
-  default = "roboshop"
+  default = "clarion"
 }
 
 variable "environment" {
