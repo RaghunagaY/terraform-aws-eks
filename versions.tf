@@ -3,7 +3,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = ">= 5.31.0, <= 5.75.0"
+      version = ">= 5.38.0"  # This ensures compatibility with your locked version
     }
   }
   required_version = ">= 1.0.0"
@@ -11,6 +11,5 @@ terraform {
 
 # provider.tf
 provider "aws" {
-  # Configure the AWS Provider
-  region = "your-region"  # Replace with your desired region
+  region = "us-east-1"
 }
